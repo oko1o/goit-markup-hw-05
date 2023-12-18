@@ -436,7 +436,7 @@ ul {
   padding: 0 15px 0 15px;
 }
 
-.footer__list__logo-and-p, .footer__list__social {
+.footer__list__logo-and-p, .footer__list__item__social__icons {
   margin-right: 120px
 }
 
@@ -476,8 +476,15 @@ ul {
   fill: #f4f4fd;
 }
 
+.subscribe-form {
+  display: flex;
+  gap: 24px;
+  justify-content: flex-end;
+}
+
 .subscribe-form__input {
-  margin-right: 24px;
+  padding-left: 10px;
+  width: 264px;
   height: 40px;
   background-color: #2e2f42;
   border: 0;
@@ -495,4 +502,6 @@ ul {
   color: #ffffff;
   outline: 1px solid #4d5ae5;
   border-radius: 4px;
+  display: flex;
+  align-items: center;
 }
