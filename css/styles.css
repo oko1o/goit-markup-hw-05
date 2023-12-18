@@ -1,3 +1,7 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
@@ -414,7 +418,7 @@ ul {
   max-width: 264px;
 }
 
-.footer__list__social__text {
+.footer__list__social__text, .footer__list__subscribe__text {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -432,7 +436,7 @@ ul {
   padding: 0 15px 0 15px;
 }
 
-.footer__list__logo-and-p {
+.footer__list__logo-and-p, .footer__list__social {
   margin-right: 120px
 }
 
@@ -470,4 +474,25 @@ ul {
 
 .footer__list__item__social__icons__item__svg {
   fill: #f4f4fd;
+}
+
+.subscribe-form__input {
+  margin-right: 24px;
+  height: 40px;
+  background-color: #2e2f42;
+  border: 0;
+  outline: 1px solid #ffffff;
+  border-radius: 4px;
+}
+
+
+
+.subscribe-form__button {
+  background-color: #4d5ae5;
+  height: 40px;
+  border: 0;
+  padding: 8px 24px;
+  color: #ffffff;
+  outline: 1px solid #4d5ae5;
+  border-radius: 4px;
 }
