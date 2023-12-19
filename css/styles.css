@@ -194,6 +194,125 @@ ul {
   background-color: #404bbf;
 }
 
+.backdrop {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  top: 80px;
+}
+
+.modal-window__close-button {
+  position: absolute;
+  right: 24px;
+  top: 24px;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  background-color: #e7e9fc;
+  border: 0;
+  outline: 1px solid rgba(00, 00, 00, 0.1);
+}
+
+.modal-window__header {
+  margin: 48px 0 24px 0;
+  font-weight: 500;
+  text-align: center;
+}
+
+.modal-window__form {
+  position: relative;
+  z-index: 1;
+  background-color: #fcfcfc;
+  border-radius: 4px;
+  padding: 24px;
+  width: 408px;
+
+}
+
+.modal-window__fields {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  color: #8e8f99;
+}
+
+.modal-window__fields {
+  color: #8e8f99;
+  font-size: 12px;
+}
+
+.modal-window__fields span {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.modal-window__input-field, .modal-window__textarea-field {
+  border: 1px solid rgba(46, 47, 66, 0.40);
+  border-radius: 4px;
+}
+
+.modal-window__input-field:focus, .modal-window__textarea-field:focus {
+  border: 1px solid #4d5ae5;
+}
+
+.modal-window__input-field {
+  height: 40px;
+  width: 360px;
+}
+
+.user-name__icon {
+position: relative;
+}
+
+.user-name__svg {
+  position: absolute;
+  margin: 11px 0 11px 16px;
+}
+
+.user-name__svg::after {
+  content: "";
+  width: 1.25px;
+  height: 18px;
+  background-color: #404bbf;
+  border-radius: 2px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.modal-window__button {
+  display: flex;
+  justify-content: center;
+}
+
+.modal-window__send-button {
+  background-color: #4d5ae5;
+  padding: 16px 32px;
+  color: #ffffff;
+  font-weight: 500;
+  border: 0;
+  outline: 1px #4d5ae5;
+  width: 169px;
+  height: 56px;
+  border-radius: 4px;
+  margin-top: 12px;
+}
+
+.backdrop-overlay {
+  position: fixed;
+  background-color: rgba(46, 47, 66, 0.40);
+  opacity: 0.5;
+  width: 100%;
+  height: 100vh;
+  left: 0;
+  top: 0;
+  z-index: 0;
+}
+
 .features {
   padding: 120px 0 120px 0;
 }
