@@ -205,10 +205,8 @@ ul {
 }
 
 .backdrop-overlay {
-  position: absolute;
+  position: fixed;
   background-color: rgba(46, 47, 66, 0.40);
-  opacity: 0.5;
-  z-index: 0;
   display: flex;
   justify-content: center;
   width: 100%;
