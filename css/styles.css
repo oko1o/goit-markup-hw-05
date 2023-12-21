@@ -330,6 +330,7 @@ ul {
   padding: 8px 16px;
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  resize: none;
 }
 
 .modal-window__field__input:focus,
@@ -344,6 +345,10 @@ ul {
   top: 50%;
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-window__field__input:focus .modal-window__field__svg {
+  fill: #4d5ae5;
 }
 
 .privacy-policy {
