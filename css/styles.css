@@ -256,11 +256,11 @@ ul {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-window__close-button__svg:hover {
+.modal-window__close-button:hover .modal-window__close-button__svg {
   fill: #ffffff;
 }
 
-.modal-window__close-button__svg:focus {
+.modal-window__close-button:focus .modal-window__close-button__svg {
   fill: #ffffff;
 }
 
@@ -314,7 +314,7 @@ ul {
   background-color: transparent;
   padding-left: 38px;
   outline: transparent;
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-window__field__input.comment {
@@ -329,10 +329,11 @@ ul {
   background-color: transparent;
   padding: 8px 16px;
   outline: transparent;
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-window__field__input:focus, .modal-window__field__input.comment:focus {
+.modal-window__field__input:focus,
+.modal-window__field__input.comment:focus {
   border-color: #4d5ae5;
   fill: #4d5ae5;
 }
