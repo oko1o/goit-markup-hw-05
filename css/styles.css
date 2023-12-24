@@ -347,8 +347,8 @@ ul {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* .modal-window__field__svg */
-.modal-window__field__input:focus input + svg {
+/* input + svg */
+.modal-window__field__input:focus .modal-window__field__svg {
   fill: #4d5ae5;
 }
 
