@@ -343,6 +343,7 @@ ul {
   position: absolute;
   left: 16px;
   top: 50%;
+  fill: #2e2f42;
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -351,10 +352,6 @@ ul {
 .modal-window__field__input:focus + .modal-window__field__svg path {
   fill: #4d5ae5;
 }
-
-/* .modal-window__field__svg path {
-  fill: #4d5ae5;
-} */
 
 .privacy-policy {
   width: 16px;
