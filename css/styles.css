@@ -364,7 +364,7 @@ ul {
 }
 
 /* .privacy-policy */
-.modal-window__field__input.checkbox:checked + label span {
+.modal-window__field__input.checkbox:checked + .privacy-policy-checkbox {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
