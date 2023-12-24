@@ -349,7 +349,7 @@ ul {
 }
 
 /* .modal-window__field__svg */
-.modal-window__field__input:focus + .modal-window__field__svg path {
+.modal-window__field__input:focus + .modal-window__field__svg {
   fill: #4d5ae5;
 }
 
