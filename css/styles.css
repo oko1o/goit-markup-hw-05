@@ -646,11 +646,13 @@ ul {
   padding: 0 15px 0 15px;
 }
 
-.footer__list__logo-and-p,
-.footer__list__item__social__icons {
+.footer__list__logo-and-p {
   margin-right: 120px
 }
 
+.footer__list__social {
+  margin-right: 80px;
+}
 
 .footer__list__item__social__icons {
   display: flex;
